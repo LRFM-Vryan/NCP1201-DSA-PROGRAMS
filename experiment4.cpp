@@ -1,8 +1,11 @@
 #include <iostream>
 using namespace std;
+
 int main() {
-int a = 5, b = 3;
-cout << "Sum: " << a + b << endl;
-cout << "Product: " << a * b;
-return 0;
+    int nums[3] = {5, 10, 15};
+
+    cout << nums[0] << endl;
+    cout << nums[1] << endl;
+    cout << nums[2];
+    return 0;
 }

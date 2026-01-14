@@ -1,7 +1,11 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
+
+void greet() {
+    cout << "Hello from a function!";
+}
+
 int main() {
-int age = 19; //use your real age
-cout << "My age is: " << age;
-return 0;
+    greet();
+    return 0;
 }

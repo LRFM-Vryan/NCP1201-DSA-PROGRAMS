@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
+
+void displayNumber(int n) {
+    cout << "You entered: " << n;
+}
+
 int main() {
-int num = 10;
-float grade = 91.5;
-char letter = 'A';
-cout << num << endl;
-cout << grade << endl;
-cout << letter;
-return 0;
+    displayNumber(25);
+    return 0;
 }

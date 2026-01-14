@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
+
+int add(int a, int b) {
+    return a + b;
+}
+
 int main() {
-// This prints a welcome message
-cout << "Hello C++!";
-return 0;
+    cout << "Sum: " << add(10, 20);
+    return 0;
 }

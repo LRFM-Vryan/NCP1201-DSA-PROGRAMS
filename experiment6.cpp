@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
+
 int main() {
-int x = 8;
-if (x % 2 == 0) {
-cout << "Even number";
-} else {
-cout << "Odd number";
+    int arr[5] = {1, 2, 3, 4, 5};
+
+    for (int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
+    }
+    return 0;
 }
-return 0;
-}   

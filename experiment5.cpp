@@ -1,9 +1,18 @@
 #include <iostream>
 using namespace std;
-int main() {
-int number = 10;
-if (number > 5) {
-cout << "Number is greater than 5";
+
+int findMax(int arr[], int size) {
+    int maxVal = arr[0];
+
+    for (int i = 1; i < size; i++) {
+        if (arr[i] > maxVal)
+            maxVal = arr[i];
+    }
+    return maxVal;
 }
-return 0;
+
+int main() {
+    int data[4] = {2, 9, 4, 7};
+    cout << "Max: " << findMax(data, 4);
+    return 0;
 }
