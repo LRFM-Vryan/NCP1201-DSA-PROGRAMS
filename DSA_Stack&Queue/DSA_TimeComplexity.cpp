@@ -20,3 +20,6 @@ int main() {
 
     return 0;
 }
+
+// This program measures the time complexity of inserting 50,000 elements
+// into a priority queue. The time taken is displayed in milliseconds.

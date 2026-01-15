@@ -17,3 +17,6 @@ int main() {
 
     return 0;
 }
+
+//The swap() function is used to exchange the contents of two stacks.
+//After swapping, the top of courseA becomes "OS" and the top of courseB becomes "OOP".
