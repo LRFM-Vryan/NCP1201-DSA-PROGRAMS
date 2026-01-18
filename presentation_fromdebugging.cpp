@@ -5,13 +5,13 @@ using namespace std;
 int main() {
 queue<string> printQueue;
 
-printQueue.push(`Document_A.pdf`);
-printQueue.push(`Report_B.docx`);
-printQueue.push(`Image_C.png`);
+printQueue.push("Document_A.pdf");
+printQueue.push("Report_B.docx");
+printQueue.push("Image_C.png");
 
-cout << `Printing: ` << printQueue.front() << endl;
+cout << "Printing: " << printQueue.front() << endl;
 printQueue.pop();
-cout << `Next in line: ` << printQueue.front() << endl;
+cout << "Next in line: " << printQueue.front() << endl;
 
 return 0;
 }
