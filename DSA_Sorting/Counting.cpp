@@ -40,3 +40,9 @@ int main() {
 
     return 0;
 }
+
+// This program implements the Counting Sort algorithm to sort an array of non-negative integers.
+// The algorithm counts the occurrences of each unique element and uses this information
+// to place elements in their correct positions in the sorted output array.
+// The time complexity of Counting Sort is O(n + k), where n is the number of
+// elements in the input array and k is the range of the input values (maximum value).
