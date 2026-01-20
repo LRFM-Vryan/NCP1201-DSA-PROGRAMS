@@ -82,21 +82,21 @@ int main() {
     }
     cout << endl << endl;
 
-    stack<int> StockValues;
+    stack<int> StackValues;
 
     for (int i = 0; i < 10; i++) {
-        StockValues.push(ArrValues[i]);  }
+        StackValues.push(ArrValues[i]);  }
 
     for (int i = 0; i < 3; i++) {
-        StockValues.pop(); }
+        StackValues.pop(); }
 
     vector<int> StackRemaining;
     cout << "Remaining values in stack:" << endl;
-    while (!StockValues.empty()) {
-        int val = StockValues.top();
+    while (!StackValues.empty()) {
+        int val = StackValues.top();
         StackRemaining.push_back(val);
         cout << val << " ";
-        StockValues.pop();
+        StackValues.pop();
     }
     cout << endl << endl;
 
@@ -140,7 +140,7 @@ int main() {
     for (int val : Merged)
         cout << val << " ";
     cout << endl;
-    auto duration_us = chrono::duration_cast<chrono::microseconds>(end - start).count();
+    auto duration_us = chrono::duration_cast<chrono::nanoseconds>(end - start).count();
     cout << "Bubble Sort Time (ms): " << duration_us / 100.0 << endl << endl;
 
     auto start2 = chrono::high_resolution_clock::now();
@@ -151,7 +151,7 @@ int main() {
     for (int val : Merged)
         cout << val << " ";
     cout << endl;
-    auto duration_us2 = chrono::duration_cast<chrono::microseconds>(end2 - start2).count();
+    auto duration_us2 = chrono::duration_cast<chrono::nanoseconds>(end2 - start2).count();
     cout << "Selection Sort Time (ms): " << duration_us2 / 100.0 << endl << endl;
 
     auto start3 = chrono::high_resolution_clock::now();
@@ -162,7 +162,7 @@ int main() {
     for (int val : Merged)
         cout << val << " ";
     cout << endl;
-    auto duration_us3 = chrono::duration_cast<chrono::microseconds>(end3 - start3).count();
+    auto duration_us3 = chrono::duration_cast<chrono::nanoseconds>(end3 - start3).count();
     cout << "Insertion Sort Time (ms): " << duration_us3 / 100.0 << endl << endl;
 
     auto start4 = chrono::high_resolution_clock::now();
@@ -173,7 +173,7 @@ int main() {
     for (int val : counted)
         cout << val << " ";
     cout << endl;
-    auto duration_us4 = chrono::duration_cast<chrono::microseconds>(end4 - start4).count();
+    auto duration_us4 = chrono::duration_cast<chrono::nanoseconds>(end4 - start4).count();
     cout << "Counting Sort Time (ms): " << duration_us4 / 100.0 << endl << endl;
 
     return 0;   }
