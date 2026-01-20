@@ -18,9 +18,6 @@ int main() {
          << chrono::duration_cast<chrono::milliseconds>(end - start).count()
          << endl;
 
-    return 0;
-}
-
 // This program measures the time complexity of inserting 50,000 elements
 // into a priority queue. The time taken is displayed in milliseconds.
 // the program demonstrates the use of chrono library for high-resolution timing

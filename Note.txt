@@ -1,0 +1,37 @@
+Make a C++ code 
+1st task is to create a integer array composing of 10 elements with values ranging from 20 to 60 make sure that it is unsorted
+, using a for loop to display the content of the array
+
+2nd task (connected sa 1st stack) create a container a stack and queue that can store the initial array from the 1st task, afterwards make it .pop 3 times
+and display the content remaining of the stack and queue
+
+3rd task 
+
+Make a C++ Code:
+
+1st Task: 10pts
+1. Create an integer array composing 10 element with values ranging from 20 to 60 (UNSORTED)
+2. Display the elements using a for loop
+
+2nd Task: 10pts (Connected to the 1st task)
+1. Create a stack and queue that can store the initial array from the 1st task
+2. Use 'pop' 3 times the elements in stack and queue
+3. Display the final content of the stack and queue
+
+Make sure that the array is empty using a "!" function
+
+3rd Task: 10pts
+1. Combine all the content of stack and queue into a single container (Stack will be the first array to be shown) then queue 
+(call data merging then print)
+
+4th Task: 20pts
+1. Make 4 sorting algoriths that can be called using void function
+2. Insert the elements of data merging into the sorting algorithms
+
+5th Task: 10pts
+1. Between running the 4 running algorithms average the time complexity of them using miliseconds for each algorithms
+1. Apply chrono function to estimate the time complexity of each sorting algorithms
+
+9:45 TIME OUT
+
+3 Decimal Microseconds for time complexity
